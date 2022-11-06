@@ -14,6 +14,8 @@ minimumBnb = 0.03
 
 def getMarketData(client, exclude):
     
+
+
     tickers = client.get_orderbook_tickers()
     
     for i in tickers:
